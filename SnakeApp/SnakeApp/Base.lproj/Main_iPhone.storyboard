@@ -47,14 +47,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the game play view" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roQ-GQ-Kl8">
-                                <rect key="frame" x="20" y="72" width="202" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roQ-GQ-Kl8">
+                                <rect key="frame" x="20" y="64" width="10" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyS-K1-Ibb">
-                                <rect key="frame" x="236" y="72" width="73" height="30"/>
+                                <rect key="frame" x="236" y="64" width="73" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Die Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -64,21 +64,21 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5FL-Z6-rvx" customClass="SKView">
-                                <rect key="frame" x="20" y="110" width="280" height="450"/>
+                                <rect key="frame" x="0.0" y="94" width="320" height="474"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61525977379999996" green="1" blue="0.53948756109999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5FL-Z6-rvx" firstAttribute="leading" secondItem="Xfq-PR-J3E" secondAttribute="leading" constant="20" symbolic="YES" id="8qC-hs-fxe"/>
+                            <constraint firstItem="5FL-Z6-rvx" firstAttribute="leading" secondItem="Xfq-PR-J3E" secondAttribute="leading" id="8qC-hs-fxe"/>
                             <constraint firstAttribute="trailing" secondItem="kyS-K1-Ibb" secondAttribute="trailing" constant="11" id="9Vo-L4-h5R"/>
-                            <constraint firstItem="kyS-K1-Ibb" firstAttribute="top" secondItem="tzW-qW-A6n" secondAttribute="bottom" constant="20" symbolic="YES" id="Dxz-eV-cTo"/>
-                            <constraint firstItem="5FL-Z6-rvx" firstAttribute="top" secondItem="kyS-K1-Ibb" secondAttribute="bottom" constant="8" symbolic="YES" id="OsT-dr-Btz"/>
-                            <constraint firstItem="GQx-eD-VR4" firstAttribute="top" secondItem="5FL-Z6-rvx" secondAttribute="bottom" constant="20" symbolic="YES" id="RQd-oo-O23"/>
-                            <constraint firstItem="roQ-GQ-Kl8" firstAttribute="top" secondItem="tzW-qW-A6n" secondAttribute="bottom" constant="20" symbolic="YES" id="bvC-OC-qBM"/>
+                            <constraint firstItem="kyS-K1-Ibb" firstAttribute="top" secondItem="tzW-qW-A6n" secondAttribute="bottom" id="Dxz-eV-cTo"/>
+                            <constraint firstItem="5FL-Z6-rvx" firstAttribute="top" secondItem="kyS-K1-Ibb" secondAttribute="bottom" id="OsT-dr-Btz"/>
+                            <constraint firstItem="GQx-eD-VR4" firstAttribute="top" secondItem="5FL-Z6-rvx" secondAttribute="bottom" id="RQd-oo-O23"/>
+                            <constraint firstItem="roQ-GQ-Kl8" firstAttribute="top" secondItem="tzW-qW-A6n" secondAttribute="bottom" id="bvC-OC-qBM"/>
                             <constraint firstItem="roQ-GQ-Kl8" firstAttribute="leading" secondItem="Xfq-PR-J3E" secondAttribute="leading" constant="20" id="cVt-J2-jLQ"/>
-                            <constraint firstAttribute="trailing" secondItem="5FL-Z6-rvx" secondAttribute="trailing" constant="20" symbolic="YES" id="jbR-R5-hyr"/>
+                            <constraint firstAttribute="trailing" secondItem="5FL-Z6-rvx" secondAttribute="trailing" id="jbR-R5-hyr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iUk-Y7-i0K"/>

@@ -8,6 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface ANVHelloWorldScene : SKScene
+@interface ANVSnakePlayScene : SKScene
 
 @end

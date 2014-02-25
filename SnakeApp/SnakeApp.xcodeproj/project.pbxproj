@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		919C42EE18BA827600A26D80 /* ANVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C42ED18BA827600A26D80 /* ANVViewController.m */; };
 		91E23FCD18B878DC00A81201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E23FCC18B878DC00A81201 /* Foundation.framework */; };
 		91E23FCF18B878DC00A81201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E23FCE18B878DC00A81201 /* CoreGraphics.framework */; };
 		91E23FD118B878DC00A81201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E23FD018B878DC00A81201 /* UIKit.framework */; };
@@ -15,7 +16,6 @@
 		91E23FDD18B878DC00A81201 /* ANVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E23FDC18B878DC00A81201 /* ANVAppDelegate.m */; };
 		91E23FE018B878DC00A81201 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E23FDE18B878DC00A81201 /* Main_iPhone.storyboard */; };
 		91E23FE318B878DC00A81201 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E23FE118B878DC00A81201 /* Main_iPad.storyboard */; };
-		91E23FE618B878DC00A81201 /* ANVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E23FE518B878DC00A81201 /* ANVViewController.m */; };
 		91E23FE818B878DC00A81201 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E23FE718B878DC00A81201 /* Images.xcassets */; };
 		91E23FEF18B878DC00A81201 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E23FEE18B878DC00A81201 /* XCTest.framework */; };
 		91E23FF018B878DC00A81201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E23FCC18B878DC00A81201 /* Foundation.framework */; };
@@ -25,7 +25,7 @@
 		91E2400D18B87ED800A81201 /* ANVGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E2400C18B87ED800A81201 /* ANVGamePlayViewController.m */; };
 		91E2401018B880B700A81201 /* ANVGameSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E2400F18B880B700A81201 /* ANVGameSummaryViewController.m */; };
 		91E2401218B8B24600A81201 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E2401118B8B24600A81201 /* SpriteKit.framework */; };
-		91E2401618B8BA4100A81201 /* ANVHelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E2401518B8BA4100A81201 /* ANVHelloWorldScene.m */; };
+		91E2401618B8BA4100A81201 /* ANVSnakePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E2401518B8BA4100A81201 /* ANVSnakePlayScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		919C42EC18BA827600A26D80 /* ANVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANVViewController.h; sourceTree = "<group>"; };
+		919C42ED18BA827600A26D80 /* ANVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANVViewController.m; sourceTree = "<group>"; };
 		91E23FC918B878DC00A81201 /* SnakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E23FCC18B878DC00A81201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91E23FCE18B878DC00A81201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +53,6 @@
 		91E23FDC18B878DC00A81201 /* ANVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANVAppDelegate.m; sourceTree = "<group>"; };
 		91E23FDF18B878DC00A81201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		91E23FE218B878DC00A81201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		91E23FE418B878DC00A81201 /* ANVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANVViewController.h; path = ../ANVViewController.h; sourceTree = "<group>"; };
-		91E23FE518B878DC00A81201 /* ANVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANVViewController.m; path = ../ANVViewController.m; sourceTree = "<group>"; };
 		91E23FE718B878DC00A81201 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91E23FED18B878DC00A81201 /* SnakeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E23FEE18B878DC00A81201 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,8 +64,8 @@
 		91E2400E18B880B700A81201 /* ANVGameSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANVGameSummaryViewController.h; path = SnakeApp/ANVGameSummaryViewController.h; sourceTree = SOURCE_ROOT; };
 		91E2400F18B880B700A81201 /* ANVGameSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANVGameSummaryViewController.m; path = SnakeApp/ANVGameSummaryViewController.m; sourceTree = SOURCE_ROOT; };
 		91E2401118B8B24600A81201 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		91E2401418B8BA4100A81201 /* ANVHelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANVHelloWorldScene.h; sourceTree = "<group>"; };
-		91E2401518B8BA4100A81201 /* ANVHelloWorldScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANVHelloWorldScene.m; sourceTree = "<group>"; };
+		91E2401418B8BA4100A81201 /* ANVSnakePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANVSnakePlayScene.h; sourceTree = "<group>"; };
+		91E2401518B8BA4100A81201 /* ANVSnakePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANVSnakePlayScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +172,8 @@
 		91E2400518B87C7C00A81201 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				91E23FE418B878DC00A81201 /* ANVViewController.h */,
-				91E23FE518B878DC00A81201 /* ANVViewController.m */,
+				919C42EC18BA827600A26D80 /* ANVViewController.h */,
+				919C42ED18BA827600A26D80 /* ANVViewController.m */,
 				91E2400B18B87ED800A81201 /* ANVGamePlayViewController.h */,
 				91E2400C18B87ED800A81201 /* ANVGamePlayViewController.m */,
 				91E2400E18B880B700A81201 /* ANVGameSummaryViewController.h */,
@@ -192,8 +192,8 @@
 		91E2401718B8BA4E00A81201 /* scene */ = {
 			isa = PBXGroup;
 			children = (
-				91E2401418B8BA4100A81201 /* ANVHelloWorldScene.h */,
-				91E2401518B8BA4100A81201 /* ANVHelloWorldScene.m */,
+				91E2401418B8BA4100A81201 /* ANVSnakePlayScene.h */,
+				91E2401518B8BA4100A81201 /* ANVSnakePlayScene.m */,
 			);
 			path = scene;
 			sourceTree = "<group>";
@@ -297,10 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91E2401618B8BA4100A81201 /* ANVHelloWorldScene.m in Sources */,
+				91E2401618B8BA4100A81201 /* ANVSnakePlayScene.m in Sources */,
 				91E2401018B880B700A81201 /* ANVGameSummaryViewController.m in Sources */,
 				91E23FDD18B878DC00A81201 /* ANVAppDelegate.m in Sources */,
-				91E23FE618B878DC00A81201 /* ANVViewController.m in Sources */,
+				919C42EE18BA827600A26D80 /* ANVViewController.m in Sources */,
 				91E2400D18B87ED800A81201 /* ANVGamePlayViewController.m in Sources */,
 				91E23FD918B878DC00A81201 /* main.m in Sources */,
 			);
@@ -521,6 +521,7 @@
 				91E2400018B878DC00A81201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91E2400118B878DC00A81201 /* Build configuration list for PBXNativeTarget "SnakeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +530,7 @@
 				91E2400318B878DC00A81201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

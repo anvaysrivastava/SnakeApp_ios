@@ -30,7 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    ANVHelloWorldScene * helloWorldScene = [[ANVHelloWorldScene alloc] initWithSize:self.spriteView.bounds.size];
+    ANVSnakePlayScene * helloWorldScene = [[ANVSnakePlayScene alloc] initWithSize:self.spriteView.bounds.size];
     [self.spriteView presentScene:helloWorldScene];
 
     self.spriteView.showsFPS = YES;
@@ -41,7 +41,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    ANVHelloWorldScene * helloWorldScene = [[ANVHelloWorldScene alloc] initWithSize:self.spriteView.bounds.size];
+    ANVSnakePlayScene * helloWorldScene = [[ANVSnakePlayScene alloc] initWithSize:self.spriteView.bounds.size];
     [self.spriteView presentScene:helloWorldScene];
     
     

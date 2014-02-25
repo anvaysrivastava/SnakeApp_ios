@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ANVHelloWorldScene.h"
+#import "ANVSnakePlayScene.h"
 
 @interface ANVGamePlayViewController : UIViewController
 
